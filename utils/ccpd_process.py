@@ -190,9 +190,6 @@ if __name__ == '__main__':
     pool.close()
     # 等待所有任务完成
     pool.join()
-
-
-
     # 2. 清理异常文件夹
     # 调用删除非jpg图像的函数
     image_folder = r"G:\data\images"
